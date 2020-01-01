@@ -1,0 +1,15 @@
+#topNav {
+	
+	color: #000000;
+	display: inline-block;
+	background: linear-gradient(to right, #2d4e96, #424b5e);
+}
+#topNav a {
+ 
+  color: white;
+  text-decoration: none;
+}
+#topNav a:hover {
+  color: #d8e6e2;
+  text-decoration: none;
+}
