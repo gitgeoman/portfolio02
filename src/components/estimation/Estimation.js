@@ -12,23 +12,61 @@ class Estimation extends Component{
 		          <br/>
 		         <div className='flex flex-wrap justify-center'>
 			        <figure>
-			        	<article className='f4 bg-light-green  br3 pa3 ma1 grow bw4 shadow-5'><h3>wycena</h3></article>
-			        </figure>
-					<figure>
-			        	<article className='f4 bg-light-green  br3 pa3 ma1 grow bw4 shadow-5'><h3>wycena</h3></article>
-			        </figure>
-			        <figure>
-			        	<article className='f4 bg-light-green  br3 pa3 ma1 grow bw5 shadow-5'><h3>wycena</h3></article>
-			        </figure>
-			        <figure>
-			        	<article className='f4 bg-light-green  br3 pa3 ma1 grow bw5 shadow-5'><h3>wycena</h3></article>
-			        </figure>
-					<figure>
-			        	<article className='f4 bg-light-green  br3 pa3 ma1 grow bw5 shadow-5'><h3>wycena</h3></article>
-			        </figure>
-			        <figure>
-			        	<article className='f4 bg-light-green  br3 pa3 ma1 grow bw5 shadow-5'><h3>wycena</h3></article>
-			        </figure>
+			        	<article id='box'><div id='circle'></div>
+			        		Lorem ipsum dolor sit amet, 
+			        		consectetur adipiscing elit, 
+			        		sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			        		Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			        	</article>
+			     	</figure>
+			     	<figure>
+			        	<article id='box'><div id='circle'></div>
+			        		Lorem ipsum dolor sit amet, 
+			        		consectetur adipiscing elit, 
+			        		sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			        		Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			        	</article>
+			     	</figure>	
+			     	<figure>
+			        	<article id='box'><div id='circle'></div>
+			        		Lorem ipsum dolor sit amet, 
+			        		consectetur adipiscing elit, 
+			        		sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			        		Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			        	</article>
+			     	</figure>	
+			     	<figure>
+			        	<article id='box'><div id='circle'></div>
+			        		Lorem ipsum dolor sit amet, 
+			        		consectetur adipiscing elit, 
+			        		sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			        		Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			        	</article>
+			     	</figure>	
+			     	<figure>
+			        	<article id='box'><div id='circle'></div>
+			        		Lorem ipsum dolor sit amet, 
+			        		consectetur adipiscing elit, 
+			        		sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			        		Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			        	</article>
+			     	</figure>	
+			     	<figure>
+			        	<article id='box'><div id='circle'></div>
+			        		Lorem ipsum dolor sit amet, 
+			        		consectetur adipiscing elit, 
+			        		sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			        		Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			        	</article>
+			     	</figure>	
+			     	<figure>
+			        	<article id='box'><div id='circle'></div>
+			        		Lorem ipsum dolor sit amet, 
+			        		consectetur adipiscing elit, 
+			        		sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			        		Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			        	</article>
+			     	</figure>				      
 			      </div>
 		    </section>
 

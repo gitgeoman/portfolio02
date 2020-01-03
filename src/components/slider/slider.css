@@ -1,22 +1,27 @@
+#ramkaObrazek {
+  margin:10px;
+  height: 100%;
+  width:auto;
+}
 img{
 	height:100%;
 	width:100%;
 	border-radius: 7px;
 	z-index: 0;
+  background-color: red;
 }
+
 #podpisObrazka{
-  	z-index: 1;
-  	height: auto;
+    z-index: 1;
   	max-width: 400px;
   	position: absolute;
+    margin:auto;
   	background: linear-gradient(to right, rgba(52, 152, 207,.5),  rgba(52, 152, 207,.5));
-  	top: 80%;
-  	margin-top: -50px;
+  	top:40rem;
   	font: 600 1.5em 'lato';
   	color: rgba(245, 240, 240,.5);
   	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: .5em;
-	width: 100%;
+	  text-transform: uppercase;
+	  letter-spacing: .5em;
 }
 
