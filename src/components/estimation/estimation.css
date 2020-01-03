@@ -4,15 +4,15 @@ article{
 	text-align: justify;
 
 }
-article img{
-	width: auto;
-	height: 100%;
-}
+
 h3{
 	margin:0px;
 	padding: 0px;
 	font: 400 1.5em 'lato';
 	color:#535e56;
+}
+section{
+	background: #f2f5fa;
 }
 #box {
 	margin:10px 0 0 0;
@@ -20,16 +20,16 @@ h3{
 	width: 200px;
 	padding: 0px 15px 10px 15px;
 
-	background: white;
 	border:1px solid grey;
 	border-radius: 3px;
 	border-top:5px solid green;
+	background: white;
 }
 #circle{
 	height: 70px;
 	width:70px;
 	padding:0px;
-	background:white;
+	background: white;
 	border:;
 	border:1px solid green;
 	border-radius: 50%;

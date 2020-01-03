@@ -5,7 +5,7 @@ import './estimation.css';
 class Estimation extends Component{
 	render(){
 		return(
-			<section className='bg-green'>
+			<section>
 				<br/> 
 				
 		      	<header><h2>W czym możemy pomóc</h2> </header>
