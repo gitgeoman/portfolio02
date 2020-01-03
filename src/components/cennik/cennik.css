@@ -1,0 +1,10 @@
+#cennik{
+	text-align: center;
+	width: auto;
+	background: linear-gradient(to right, rgba(52, 119, 145,.5),  rgba(138, 230, 230));
+}
+#cennik h3{
+	color:black;
+	padding: 1rem;
+	margin: 0px;
+}

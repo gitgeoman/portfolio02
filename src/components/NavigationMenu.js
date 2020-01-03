@@ -4,14 +4,13 @@ import './NavigationMenu';
 
 const NavigationMenu =()=>{
 	return(
-				<nav className='flex items-center f5 black bg-light-blue '>
+			<nav className='flex items-center justify-center f5 black bg-green'>
 				<div id='menu-div' className='dib pa2 ma2'>START</div>
 				<div id='menu-div' className='dib pa2 ma2'>WYCENA NIERUCHOMOŚCI</div>
 				<div id='menu-div' className='dib pa2 ma2'>CENNIK</div>
 				<div id='menu-div' className='dib pa2 ma2'>PROCES WYCENY</div>
 				<div id='menu-div' className='dib pa2 ma2'>O BIURZE</div>
-				<div id='menu-div' className='dib pa2 ma2'>KONTAKT</div>
-				
+				<div id='menu-div' className='dib pa2 ma2'>KONTAKT</div>	
 			</nav>
 
 		);

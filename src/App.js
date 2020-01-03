@@ -1,59 +1,24 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+
 import TopNavbar from './components/topNavbar';
 import NavigationMenu from './components/NavigationMenu';
+import Slider from './components/slider/Slider';
+import Estimation from './components/estimation/Estimation';
+import Cennik from './components/cennik/Cennik';
+
+//import ColorPicker from './components/ColorPicker.js'
+
 
 function App() {
-  console.log('color');
   return (
     <div className="App helvetica">
       <TopNavbar/>
       <NavigationMenu/>
-      <div><figure>slider</figure></div>
-      <header>nagłówek</header>
-      <section>W czym możemy pomóc 
-          <br/> <figure>
-                    <article>wycena</article>
-                </figure>
-                <figure>
-                    <article>wycena</article>
-                </figure> 
-                <figure>
-                    <article>wycena</article>
-                </figure>
-                <figure>
-                    <article>wycena</article>
-                </figure> 
-                <figure>
-                    <article>wycena</article>
-                </figure>
-                <figure>
-                    <article>wycena</article>
-                </figure> 
-                
-          <br/> <figure>
-                    <article>wycena</article>
-                </figure>
-                <figure>
-                    <article>wycena</article>
-                </figure> 
-                <figure>
-                    <article>wycena</article>
-                </figure>
-                <figure>
-                    <article>wycena</article>
-                </figure> 
-                <figure>
-                    <article>wycena</article>
-                </figure>
-                <figure>
-                    <article>wycena</article>
-                </figure>  
-      </section>
-      <section>
-              <article>Cennik</article>
-      </section>
+      <Slider />
+      <Estimation />
+      <Cennik />
       
       <section>lokalizacja</section>
       
