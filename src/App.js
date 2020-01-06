@@ -3,7 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 
 import TopNavbar from './components/topNavbar';
-import NavigationMenu from './components/NavigationMenu';
+import NewNavBar from './components/newNavBar/NewNavBar'
+//import NavigationMenu from './components/navigationMenu/NavigationMenu';
 import Slider from './components/slider/Slider';
 import Estimation from './components/estimation/Estimation';
 import Cennik from './components/cennik/Cennik';
@@ -15,7 +16,7 @@ function App() {
   return (
     <div className="App helvetica">
       <TopNavbar/>
-      <NavigationMenu/>
+      <NewNavBar/>
       <Slider />
       <Estimation />
       <Cennik />
