@@ -6,10 +6,11 @@ import logo from './logo.png';
 class NewNavBar extends Component {
   render() {
     let links = [
-      { label: 'Home', link: '#home', active: true },
-      { label: 'About', link: '#about' },
-      { label: 'Portfolio', link: '#portfolio' },
-      { label: 'Contact Us', link: '#contact-us' },
+      { label: 'START', link: '#home', active: true },
+      { label: 'OFERTA', link: '#oferta' },
+      { label: 'CENNIK', link: '#cennik' },
+      { label: 'BIURO', link: '#portfolio' },    
+      { label: 'KONTAKT', link: '#contact-us' },
     ];
 
     return (

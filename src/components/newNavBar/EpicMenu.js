@@ -42,7 +42,7 @@ class EpicMenu extends Component {
             <nav className="menu">
                 <h1 style={{
                 backgroundImage: 'url(' + this.props.logo + ')'
-                }} className="menu__logo">Epic Co.</h1>
+                }} className="menu__logo"></h1>
 
                 <div className="menu__right">
                     <ul className="menu__list">
