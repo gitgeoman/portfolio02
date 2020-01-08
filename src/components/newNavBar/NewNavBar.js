@@ -9,7 +9,7 @@ class NewNavBar extends Component {
       { label: 'START', link: '#home', active: true },
       { label: 'OFERTA', link: '#oferta' },
       { label: 'CENNIK', link: '#cennik' },
-      { label: 'BIURO', link: '#portfolio' },    
+      { label: 'BIURO', link: '#map' },    
       { label: 'KONTAKT', link: '#contact-us' },
     ];
 

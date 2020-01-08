@@ -9,6 +9,7 @@ import Slider from './components/slider/Slider';
 import Estimation from './components/estimation/Estimation';
 import Cennik from './components/cennik/Cennik';
 
+import Map from './components/lokalizacja/Lokalizacja';
 //import ColorPicker from './components/ColorPicker.js'
 
 
@@ -20,12 +21,11 @@ function App() {
       <Slider />
       <Estimation />
       <Cennik />
-      
-      <section>lokalizacja</section>
-      
+      <Map/>
+
       <section>Biuro rzeczoznawcy majątkowego opis</section>
       
-      <section>lokalizacja</section>
+
       
       <footer>footer</footer>
     </div>

@@ -12,6 +12,10 @@ h3{
 	font: 400 1.5em 'lato';
 	color:#535e56;
 }
+
+h4{
+	text-align: center;
+}
 section{
 	background: #f2f5fa;
 }
@@ -20,27 +24,12 @@ section{
 	box-sizing:border-box;
 	width: 200px;
 	height: 300px;
-	padding: 0px 15px 10px 15px;
-
+	padding: 10px 15px;
 	border:1px solid grey;
 	border-radius: 3px;
 	border-top:5px solid  #424b5e;
 	background: white;
-
-}
-#circle{
-	height: 70px;
-	width:70px;
-	padding:0px;
-	background: white;
-	border:;
-	border:1px solid  #424b5e;
-	border-radius: 50%;
-    position: relative;
-    top: -35px;
-    left:50px;
+	overflow: hidden;
+	word-wrap: break-word;
 }
 
-a{
-	-webkit-transition: all 0.5s ease;
-}
