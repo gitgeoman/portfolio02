@@ -21,21 +21,21 @@ class LeafletMap extends Component {
 							      center: [52.338814, 21.250535],
 							      zoom: 12,
 							      layers: [
-							        L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-							          attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-							        }),
-							      ]
+        							        L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+        							          attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+        							        }),
+        							      ]
     						}
     				);
         this.marker = L.marker([52.338814, 21.250535])
-        			   .bindPopup('<span style="font-size:1rem">Tutaj nas znajdziesz!</span>')
+        			   .bindPopup('<span style="font-size:0.7rem">Nasz Adres: <br>ul. 1 Maja <br> Wołomin,</span>')
         			   .openPopup()
-        			   .addTo(this.map);
+                       .addTo(this.map);
 
     };
 
   render() {
-    return <div className='f2 w-100 pa2 vh-75' id="map"></div>
+    return <div className='f2 w-100 pa2 vh-50' id="map"></div>
   }
 }
 export default LeafletMap;

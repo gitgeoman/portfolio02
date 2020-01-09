@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 
 import TopNavbar from './components/topNavbar';
@@ -8,7 +8,7 @@ import NewNavBar from './components/newNavBar/NewNavBar'
 import Slider from './components/slider/Slider';
 import Estimation from './components/estimation/Estimation';
 import Cennik from './components/cennik/Cennik';
-
+import './main.scss';
 import Map from './components/lokalizacja/Lokalizacja';
 //import ColorPicker from './components/ColorPicker.js'
 
@@ -23,7 +23,7 @@ function App() {
       <Cennik />
       <Map/>
 
-      <section>Biuro rzeczoznawcy majątkowego opis</section>
+      <section></section>
       
 
       

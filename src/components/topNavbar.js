@@ -3,7 +3,7 @@ import './topNavbar.css';
 
 
 import '../pictures/fontello/css/fontello.css';
-import ColorPicker from './ColorPicker.js';
+//import ColorPicker from './ColorPicker.js';
 
 const TopNavbar =()=>{
 	return(
