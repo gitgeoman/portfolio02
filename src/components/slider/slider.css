@@ -1,9 +1,6 @@
 #ramkaObrazek {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  
-  margin:50px;
+  position: relative;
+  margin:0 10%;
   height: 100vh;
   width:auto;
   background-image: url("https://static.polityka.pl/_resource/res/path/0a/89/0a89ee8b-852c-4c15-8327-ae3972865627_830x830");
@@ -12,6 +9,10 @@
 }
 
 #podpisObrazka{
+    position: relative;
+    top:80%;
+    margin:0 15%;
+    
     z-index: 1;
     max-width: 400px;
     background: linear-gradient(to right, rgba(52, 152, 207,.5),  rgba(52, 152, 207,.5));
